@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>1111111111</h1>
+	<a href="/day01/row?username=tom&password=123">a_操作请求行</a>
+	<br>
+	<a href="/day01/headers">b_操作请求头</a>
+	<br>
+	<a
+		href="/day01/param?username=汤姆&password=123&hobby=smoking&hobby=drinking">c_操作请求参数</a>
+	<br>
+	<a
+		href="/day01/param?username=汤姆&password=123&hobby=smoking&hobby=drinking">c_操作请求参数</a>
+	<br>
+	<hr>
+	get方式<br>
+	<form method="get" action="/day01/paramPlus">
+		<table  border='1'>
+			<tr>
+				<td>用户名</td>
+				<td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<td>密码</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>爱好</td>
+				<td>
+				<input type="checkbox" name="hobby" value="drink">喝酒
+				<input type="checkbox" name="hobby" value="smoke">抽烟
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit"></td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+	
+	<hr>
+	post方式<br>
+	<form method="post" action="/day01/paramPlus">
+		<table border='1'>
+			<tr>
+				<td>用户名</td>
+				<td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<td>密码</td>
+				<td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>爱好</td>
+				<td>
+					<input type="checkbox" name="hobby" value="drink">喝酒
+					<input type="checkbox" name="hobby" value="smoke">抽烟
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit"></td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+	
+	<hr>
+	<a href="/day01/dis1?money=20">d_请求转发</a><br>
+</body>
+</html>
