@@ -8,7 +8,8 @@ public class Demo {
 	public static void main(String[] args) throws Exception {
 		String s="汤姆";
 		//iii
-		
+
+		///999
 		//使用utf-8编码
 		String s8 = URLEncoder.encode(s, "utf-8");
 		System.out.println("u8:-"+s8);
